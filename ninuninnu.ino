@@ -41,7 +41,7 @@ void loop() {
     float h = dht.readHumidity();
     Firebase.setFloat("Muhammad-Emir-Ghiffari/HUMIDITY",h);
     float t = dht.readTemperature();
-    Firebase.setFloat("Ivan-Saputra-Zebua/TEMPERATURE",t);         
+    Firebase.setFloat("Muhammad-Emir-Ghiffari/TEMPERATURE",t);         
     Serial.print("Current humidity = ");
     Serial.print(h);
     Serial.print("%  ");
